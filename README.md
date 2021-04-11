@@ -2,9 +2,10 @@
 Volume Synchronized Probability of Informed Trading
 
 ## Introduction
--  The VPIN method intends to measure the probability of market informed transaction; as a predictive sign of the market liquidity risk.
+-  The VPIN method intends to measure the probability of market informed transaction.
+-  Although VPIN method is viewed for the HFT environment. But the result suggests that certain VPIN model with Linear Regression provides proxies for adverse selection risk 
 
-## Basic info
+## Info
 - Version - Written in Python 3.7.3
 - Keywords
   - VPIN
@@ -17,6 +18,7 @@ Volume Synchronized Probability of Informed Trading
 - time
 - train_test_split
 - LinearRegression
+- 
 ## Correspondence
 Please do not hesitate to submit an issue or contact via ichuzupikachu@gmail.com.
 
