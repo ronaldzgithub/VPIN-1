@@ -1,6 +1,7 @@
 # VPIN
 Volume Synchronized Probability of Informed Trading
-##Introduction
+
+## Introduction
 -  The VPIN method intends to measure the probability of market informed transaction; as a predictive sign of the market liquidity risk.
 
 ## Basic info
@@ -17,7 +18,8 @@ Volume Synchronized Probability of Informed Trading
 - time
 - train_test_split
 - LinearRegression
-- SGDRegressor
+## Correspondence
+Please do not hesitate to submit an issue or contact via ichuzupikachu@gmail.com.
 
 ## Usage
 dataset
