@@ -21,7 +21,7 @@ Volume Synchronized Probability of Informed Trading
 
 ## Usage
 dataset
-- sise3.csv
+- kakaostock.csv
 - Sampling time: 2021-March-17
 
 ## Methodology
