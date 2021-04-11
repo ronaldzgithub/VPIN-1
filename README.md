@@ -8,8 +8,7 @@ Volume Synchronized Probability of Informed Trading
 - Version - Written in Python 3.7.3
 - Keywords
   - VPIN
-  - Random control
-  - Market micro-structure
+  - Market micro structure
   
 ## Prerequisite
 - pandas
