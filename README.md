@@ -7,6 +7,7 @@ Volume Synchronized Probability of Informed Trading
 - 주식시장에서의 매수, 매도는 50:50으로 이루어진다는 가정하에 거래량의 불균형을 계산하는 방법입니다.
 - 보고자 하는 주식 종목의 일일 평균 거래량을 잘 파악해서 버켓의 크기와 VPIN 계산하기 위한 버캣개수 개수를 잘 설정 해줘야합니다.
 
+
 ## Info
 - Version - Written in Python 3.7.3
 - Keywords
@@ -32,8 +33,8 @@ dataset
 
 ## Methodology
 - For transactions in the sampling date, the entile volume is divided into 1000 buckets.
-
 - Filling Procedure: Filling of bucket starts when transaction starts. When volume of transaction exceeds the upper bound, calculate vol_bucket, which indicates the rest of transaction amount Loop of aforementioned process generate a series of baskets.
+- ![image](https://user-images.githubusercontent.com/42399580/114347964-cfe69580-9ba0-11eb-903b-23a6ee1427d0.png)
 
 ## Sample Output
 <img width="901" alt="스크린샷 2021-04-11 오후 9 13 13" src="https://user-images.githubusercontent.com/42399580/114303916-69fbfe80-9b0b-11eb-9045-138efcd0de1d.png">
