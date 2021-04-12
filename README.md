@@ -34,6 +34,7 @@ dataset
 ## Methodology
 - For transactions in the sampling date, the entile volume is divided into 1000 buckets.
 - Filling Procedure: Filling of bucket starts when transaction starts. When volume of transaction exceeds the upper bound, calculate vol_bucket, which indicates the rest of transaction amount Loop of aforementioned process generate a series of baskets.
+- 
 - ![image](https://user-images.githubusercontent.com/42399580/114347964-cfe69580-9ba0-11eb-903b-23a6ee1427d0.png)
 
 ## Sample Output
