@@ -4,6 +4,8 @@ Volume Synchronized Probability of Informed Trading
 ## Introduction
 -  The VPIN method intends to measure the probability of market informed transaction.
 -  Although VPIN method is viewed for the HFT environment. But the result suggests that certain VPIN model with Linear Regression provides proxies for adverse selection risk 
+- 주식시장에서의 매수, 매도는 50:50으로 이루어진다는 가정하에 거래량의 불균형을 계산하는 방법입니다.
+- 보고자 하는 주식 종목의 일일 평균 거래량을 잘 파악해서 버켓의 크기와 VPIN 계산하기 위한 버캣개수 개수를 잘 설정 해줘야합니다.
 
 ## Info
 - Version - Written in Python 3.7.3
@@ -26,6 +28,7 @@ Please do not hesitate to submit an issue or contact via ichuzupikachu@gmail.com
 dataset
 - kakaostock.csv
 - Sampling time: 2021-March-17
+- Data sample in time period between 1000 and 1400.
 
 ## Methodology
 - For transactions in the sampling date, the entile volume is divided into 1000 buckets.
